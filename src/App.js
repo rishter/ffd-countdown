@@ -11,7 +11,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to Flatiron School</h1>
         </header>
-        <Countdown goal={new Date(2018, 3, 21, 9)} />
+        <Countdown goal={new Date(2018, 3, 21, 9).getTime()} />
       </div>
     );
   }
