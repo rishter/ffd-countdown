@@ -14,8 +14,50 @@ class Countdown extends React.Component {
   }
 
   render() {
-    console.log(this.state.secondsLeft)
-    return (<h1>{this.state.secondsLeft.getDay()} - {this.state.secondsLeft.getHours()} - {this.state.secondsLeft.getMinutes()} - {this.state.secondsLeft.getSeconds()}</h1>)
+    return (
+      <div>
+
+        <div>
+          <div class="bg">
+          </div>
+        </div>
+
+          <div class="animated fadeIn">
+          <div class="ui five column grid">
+            <div class="column">
+              <div class="column-ticker">{this.state.secondsLeft.getMonth()} </div>
+              <div class="border-bottom"> </div>
+              <div class="column-ticker-secondary"> Month  </div>
+          </div>
+
+            <div class="column">
+              <div class="column-ticker">{this.state.secondsLeft.getDay()} </div>
+              <div class="border-bottom"> </div>
+              <div class="column-ticker-secondary"> Days  </div>
+          </div>
+
+            <div class="column">
+              <div class="column-ticker">{this.state.secondsLeft.getHours()} </div>
+              <div class="border-bottom"> </div>
+              <div class="column-ticker-secondary"> Hours  </div>
+          </div>
+
+            <div class="column">
+              <div class="column-ticker">{this.state.secondsLeft.getMinutes()} </div>
+              <div class="border-bottom"> </div>
+              <div class="column-ticker-secondary"> Minutes  </div>
+          </div>
+
+            <div class="column">
+              <div class="column-ticker">{this.state.secondsLeft.getSeconds()} </div>
+              <div class="border-bottom"> </div>
+              <div class="column-ticker-secondary"> Seconds  </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    )
   }
 }
 

@@ -1,3 +1,14 @@
+
+body {
+  background-color: #222;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-image: url('http://www.dailyfreepsd.com/wp-content/uploads/2013/09/sunset-blurred-background-freebie.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .App {
   text-align: center;
 }
@@ -7,11 +18,68 @@
   height: 80px;
 }
 
+div.bg{
+  top: 5%;
+  left: -1.75%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url('https://raw.githubusercontent.com/Thinkful/bootcamp-finder/master/bootcamps/flatiron-school/logo.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 30% 28%;
+  opacity: 0.6;
+  z-index: 99;
+}
+
+h1.header {
+  position: absolute;
+  left: 7.5%;
+  color: white;
+  font-size: 54px;
+  top: 48%;
+}
+
+.column {
+  text-align: center;
+  color: white;
+  font-size: 48px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.ui.five.column.grid{
+  margin-top: 25%;
+  margin-left: 18%;
+  margin-right: 20%;
+}
+
 .App-header {
   background-color: #222;
   height: 150px;
   padding: 20px;
   color: white;
+}
+
+div.column-ticker{
+  font-size: 100px;
+  font-family: 'Orbitron', sans-serif;
+  opacity: 0.85;
+  margin: 0;
+}
+
+div.border-bottom{
+  margin-left: 30%;
+  border-bottom: 2px solid white;
+  width: 40%;
+  margin-bottom: 2%;
+  opacity: 0.75;
+}
+
+div.column-ticker-secondary{
+  font-size: 24px;
+  font-family: 'Orbitron', sans-serif;
+  opacity: 0.75;
 }
 
 .App-title {
@@ -22,7 +90,6 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.fadeIn{
+  animation-duration: 5s;
 }
