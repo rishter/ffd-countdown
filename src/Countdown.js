@@ -2,13 +2,13 @@ import React from 'react'
 
 class Countdown extends React.Component {
   state = {
-    secondsLeft: new Date(this.props.goal - new Date())
+    secondsLeft: this.props.goal - new Date().getTime()
   }
 
   componentDidMount() {
     setInterval(() => {
       this.setState({
-        secondsLeft: new Date(this.props.goal - new Date())
+        secondsLeft: this.props.goal - new Date().getTime()
       })
     },1000)
   }
