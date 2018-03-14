@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Countdown goal={new Date(2018, 3, 21, 9)} />
+         <Countdown goal={new Date(2018, 3, 28 , 4)} />
       </div>
     );
   }

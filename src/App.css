@@ -3,7 +3,7 @@ body {
   background-color: #222;
   overflow-x: hidden;
   overflow-y: hidden;
-  background-image: url('http://www.dailyfreepsd.com/wp-content/uploads/2013/09/sunset-blurred-background-freebie.jpg');
+  background-image: url('http://www.modafinilsale.com/data/out/571/229896767-blur-picture.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,6 +40,18 @@ h1.header {
   top: 48%;
 }
 
+h2.banner-content{
+  color: white;
+  font-family: Orbitron;
+  opacity: 0.8;
+  margin-top: 2%;
+
+}
+
+div.banner-holder{
+  margin-top: 5%;
+}
+
 .column {
   text-align: center;
   color: white;
@@ -52,6 +64,7 @@ h1.header {
   margin-top: 25%;
   margin-left: 18%;
   margin-right: 20%;
+  opacity: 0.85
 }
 
 .App-header {
@@ -92,4 +105,42 @@ div.column-ticker-secondary{
 
 .fadeIn{
   animation-duration: 5s;
+}
+
+@keyframes colorPulseImg {
+  0%   { filter: drop-shadow(0px 0px 60px #FF1111); }
+  20%  { filter: drop-shadow(0px 0px 60px #FF1111); }
+  25%  { filter: drop-shadow(0px 0px 60px #FF1111); }
+  30%   { filter: drop-shadow(0px 0px 60px #FF1111); }
+  40%  { filter: drop-shadow(0px 0px 60px #1177FF); }
+  45%  { filter: drop-shadow(0px 0px 60px #1177FF); }
+  50%   { filter: drop-shadow(0px 0px 60px #FF1111); }
+  60%  { filter: drop-shadow(0px 0px 60px #BB6600); }
+  65%  { filter: drop-shadow(0px 0px 60px #FF9922); }
+  70%   { filter: drop-shadow(0px 0px 60px #FF1111); }
+  80%  { filter: drop-shadow(0px 0px 60px #22FF22); }
+  85%  { filter: drop-shadow(0px 0px 60px #22FF22); }
+  90%   { filter: drop-shadow(0px 0px 60px #FF1111); }
+}
+
+@keyframes colorShiftImg {
+  0%   { filter: drop-shadow(0px 0px 0px #FF1111); }
+  20%  { filter: drop-shadow(0px 0px 100px #FF1111); }
+  30%  { filter: drop-shadow(0px 0px 100px #1177FF); }
+  40%  { filter: drop-shadow(0px 0px 100px #1177FF); }
+  50%  { filter: drop-shadow(0px 0px 100px #FF9922); }
+  60%  { filter: drop-shadow(0px 0px 100px #FF9922); }
+  70%  { filter: drop-shadow(0px 0px 100px #22FF22); }
+  80%  { filter: drop-shadow(0px 0px 100px #22FF22); }
+  90%  { filter: drop-shadow(0px 0px 100px #11FFFF); }
+  100%  { filter: drop-shadow(0px 0px 100px #11FFFF); }
+}
+
+.shadowfilter {
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+
+}.shadowfilter:hover {
+	-webkit-filter: drop-shadow(0px 0px 8px rgba(0, 231, 232, 0.8));
 }
