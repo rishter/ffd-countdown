@@ -32,12 +32,8 @@ class Countdown extends React.Component {
         </div>
 
         <div class="animated fadeIn">
-          <div class="ui five column grid">
-            <div class="column">
-              // <div class="column-ticker">{this.months()} </div>
-              <div class="border-bottom"> </div>
-              <div class="column-ticker-secondary"> Month  </div>
-          </div>
+          <div class="ui four column grid">
+
 
             <div class="column">
               // <div class="column-ticker">{this.days()} </div>
