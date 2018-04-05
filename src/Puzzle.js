@@ -6,7 +6,7 @@ class Puzzle extends React.Component {
     if (this.props.puzzle.text) {
       return (<p className="puzzle-text">{this.props.puzzle.text}</p>)
     } else if (this.props.puzzle.image) {
-      return (<img src={this.props.puzzle.image} />)
+      return (<img src={process.env.PUBLIC_URL + this.props.puzzle.image} />)
     } else {
       return (<p></p>)
     }

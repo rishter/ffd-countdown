@@ -1,4 +1,3 @@
-import flatironBuilding from './flatironBuilding.jpg'
 
 export default {
   bf: {
@@ -7,7 +6,7 @@ export default {
   },
   flatironBuilding: {
     number: 2,
-    image: flatironBuilding
+    image: '/flatironBuilding.jpg'
   },
   todo: {
     number: "????",
