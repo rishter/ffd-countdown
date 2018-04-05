@@ -9,11 +9,10 @@ export default {
     image: 'https://i.imgur.com/ZHcjvMU.jpg'
   },
   oblatecopper: {
-    number: 3,
+    number: "????",
     text: "Did you think it would be that easy!! Try it again this time, no cheating."
   },
   copperoblate: {
-
   },
   todo: {
     number: "????",
