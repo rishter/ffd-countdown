@@ -12,10 +12,13 @@ class App extends Component {
       <div className="App">
         <Switch>
           <Route path="/hunt" render={(routerProps) => {
-            return <Puzzle puzzle={puzzles.puzzle1} />
+            return <Puzzle puzzle={puzzles.bf} />
           }} />
           <Route path="/savannah" render={(routerProps) => {
-            return <Leaderboard />
+            return <Puzzle puzzle={puzzles.flatironBuilding} />
+          }} />
+          <Route path="/oblatecopper" render={(routerProps) => {
+            return <Puzzle puzzle={puzzles.todo} />
           }} />
           <Route path="/" render={(routerProps) => {
             return <Countdown goal={new Date(2018, 3, 21, 9)} />
