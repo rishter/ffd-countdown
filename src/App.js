@@ -23,7 +23,7 @@ class App extends Component {
           <Route path="/" render={(routerProps) => {
             return <Countdown goal={new Date(2018, 3, 21, 9)} />
           }} />
-          // <Redirect to="/" />
+          <Redirect to="/" />
         </Switch>
       </div>
     );
