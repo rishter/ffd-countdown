@@ -6,12 +6,12 @@ class Puzzle extends React.Component {
   render() {
     return (
       <div>
-        <div class="banner-holder">
-          <h2 class="banner-content"> Welcome to Puzzle 1 </h2>
+        <div className="banner-holder">
+          <h2 className="banner-content"> Welcome to Puzzle {this.props.puzzle.number} </h2>
         </div>
 
-        <div class="animated fadeIn">
-          <p>{this.props.text}</p>
+        <div className="animated fadeIn">
+          <p className="puzzle-text">{this.props.puzzle.text}</p>
         </div>
       </div>
     )

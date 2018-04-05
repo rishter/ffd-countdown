@@ -26,46 +26,46 @@ class Countdown extends React.Component {
     return (
       <div>
 
-        <div class="shadowfilter" style={{marginTop: "100px"}}>
-          <div class="bg"></div>
+        <div className="shadowfilter" style={{marginTop: "100px"}}>
+          <div className="bg"></div>
         </div>
 
-        <div class="animated fadeIn">
+        <div className="animated fadeIn">
           <div id="countdown-text">
 
-            <div class="column">
-              //
-              <div class="column-ticker">{this.days()}</div>
-              <div class="border-bottom"></div>
-              <div class="column-ticker-secondary">Days</div>
+            <div className="column">
+              { "//" }
+              <div className="column-ticker">{this.days()}</div>
+              <div className="border-bottom"></div>
+              <div className="column-ticker-secondary">Days</div>
             </div>
 
-            <div class="column">
-              //
-              <div class="column-ticker">{this.hours()}</div>
-              <div class="border-bottom"></div>
-              <div class="column-ticker-secondary">Hours</div>
+            <div className="column">
+              { "//" }
+              <div className="column-ticker">{this.hours()}</div>
+              <div className="border-bottom"></div>
+              <div className="column-ticker-secondary">Hours</div>
             </div>
 
-            <div class="column">
-              //
-              <div class="column-ticker">{this.minutes()}</div>
-              <div class="border-bottom"></div>
-              <div class="column-ticker-secondary">Minutes</div>
+            <div className="column">
+              { "//" }
+              <div className="column-ticker">{this.minutes()}</div>
+              <div className="border-bottom"></div>
+              <div className="column-ticker-secondary">Minutes</div>
             </div>
 
-            <div class="column">
-              //
-              <div class="column-ticker">{this.seconds()}</div>
-              <div class="border-bottom"></div>
-              <div class="column-ticker-secondary">Seconds</div>
+            <div className="column">
+              { "//" }
+              <div className="column-ticker">{this.seconds()}</div>
+              <div className="border-bottom"></div>
+              <div className="column-ticker-secondary">Seconds</div>
             </div>
 
           </div>
 
-          <div class="banner-holder">
-            <h2 class="banner-content"> Get ready. </h2>
-            <h2 class="hidden">/hunt</h2>
+          <div className="banner-holder">
+            <h2 className="banner-content"> Get ready. </h2>
+            <h2 className="hidden">/hunt</h2>
           </div>
         </div>
       </div>
