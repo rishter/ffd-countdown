@@ -8,8 +8,15 @@ export default {
     number: 2,
     image: 'https://i.imgur.com/ZHcjvMU.jpg'
   },
+  oblatecopper: {
+    number: 3,
+    text: "Did you think it would be that easy!! Try it again this time, no cheating."
+  },
+  copperoblate: {
+
+  }
   todo: {
     number: "????",
-    text: "see you soon.......\nThe situation is still developing"
+    text: "see you soon.......\nThe situation is still developing. If you get here send @developer a slack."
   }
 }

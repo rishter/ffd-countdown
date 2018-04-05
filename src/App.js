@@ -18,6 +18,9 @@ class App extends Component {
             return <Puzzle puzzle={puzzles.flatironBuilding} />
           }} />
           <Route path="/oblatecopper" render={(routerProps) => {
+            return <Puzzle puzzle={puzzles.oblatecopper} />
+          }} />
+          <Route path="/copperoblate" render={(routerProps) => {
             return <Puzzle puzzle={puzzles.todo} />
           }} />
           <Route path="/" render={(routerProps) => {
