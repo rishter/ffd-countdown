@@ -14,7 +14,7 @@ export default {
   },
   copperoblate: {
 
-  }
+  },
   todo: {
     number: "????",
     text: "see you soon.......\nThe situation is still developing. If you get here send @developer a slack."
