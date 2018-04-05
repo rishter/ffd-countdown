@@ -1,4 +1,6 @@
 import React from 'react'
+import flatironBuilding from './flatironBuilding.jpg'
+
 
 class Puzzle extends React.Component {
 
@@ -6,7 +8,11 @@ class Puzzle extends React.Component {
     if (this.props.puzzle.text) {
       return (<p className="puzzle-text">{this.props.puzzle.text}</p>)
     } else if (this.props.puzzle.image) {
-      return (<img src={process.env.PUBLIC_URL + this.props.puzzle.image} />)
+      if (this.props.puzzle.number == 2) {
+        return (<img src={flatironBuilding} />)
+      } else {
+        return (<p></p>)
+      }
     } else {
       return (<p></p>)
     }
