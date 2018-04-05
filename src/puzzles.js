@@ -6,7 +6,7 @@ export default {
   },
   flatironBuilding: {
     number: 2,
-    image: '/flatironBuilding.jpg'
+    image: 'https://i.imgur.com/ZHcjvMU.jpg'
   },
   todo: {
     number: "????",
