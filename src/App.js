@@ -27,7 +27,7 @@ class App extends Component {
             return <Puzzle puzzle={puzzles.todo} />
           }} />
           <Route path="/" render={(routerProps) => {
-            return <Countdown goal={new Date(2018, 3, 21, 9)} />
+            return <Countdown goal={new Date(2018, 9, 9, 0)} />
           }} />
           <Redirect to="/" />
         </Switch>
